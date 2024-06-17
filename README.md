@@ -1,0 +1,2 @@
+# HASmonerod
+Home Assitant Monerod
