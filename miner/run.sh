@@ -16,4 +16,5 @@ WORKER="$(bashio::config 'worker_name')"
 bashio::log.info "Starting with $CORES cores."
 bashio::log.info "Used server: $SERVER."
 bashio::log.info "Wallet: $WALLET."
+bashio::log.info "exec /xmrig/build/xmrig -o $SERVER -u $WALLET -t $CORES -k --randomx-mode light --coin monero -p $WORKER"
 exec /xmrig/build/xmrig -o $SERVER -u $WALLET -t $CORES -k --randomx-mode light --coin monero -p $WORKER
