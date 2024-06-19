@@ -1,6 +1,6 @@
 name: "Home Assistant Monero Miner"
 description: "Home Assistant Monero Miner"
-version: "1.0.9"
+version: "1.0.10"
 slug: "homeassistant_monerominer"
 init: false
 arch:
