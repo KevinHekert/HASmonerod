@@ -19,7 +19,7 @@ LABEL \
   io.hass.version="VERSION" \
   io.hass.type="addon" \
   io.hass.arch="amd64"
-ENTRYPOINT ["/bin/bash"]
+#ENTRYPOINT ["/bin/bash"]
 CMD ["/xmrig/build/run.sh"]
 #ENTRYPOINT  ["./xmrig"]
 #CMD ["-o", "pool.supportxmr.com:3333", "-u", "44v1W3BG3uYdiRc86DgWMxABv8YrgY4zn6tQ36npJjUDcY6FvegqPgbDftGQwXd6cYb3N9K51jLk1NEzutpkrBXq5DxgUrD", "-k"]
