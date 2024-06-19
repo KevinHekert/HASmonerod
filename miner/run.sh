@@ -14,4 +14,4 @@ bashio::log.info "Used server: $SERVER."
 bashio::log.info "Wallet: $WALLET."
 
 
-exec /xmrig/xmrig -o $SERVER -u $WALLET -t $CORES -k
+exec /xmrig/build/xmrig -o $SERVER -u $WALLET -t $CORES -k
