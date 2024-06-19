@@ -1,13 +1,13 @@
-# HAS Monerod
-Home Assistant Monerod
+# Kevin's Home Assistant Add-ons
 
-_Home Assistant Monerod add-on._
+This repository contains my personal add-ons for Home Assistant. Feel free to install and use the add-ons if you find them useful.
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-![Supports armv7 Architecture][armv7-shield]
+## Installation
 
+Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on Store** and add this URL as an additional repository:
+```txt
+https://github.com/KevinHekert/HASmonerod
+```
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+## Add-ons in this repository
+ - **[Miner](/miner/README.md)**: Monerod miner.
