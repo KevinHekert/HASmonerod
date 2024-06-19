@@ -9,6 +9,10 @@ COPY run.sh /xmrig/build/run.sh
 #RUN cmake ..
 #RUN make -j$(nproc)
 #RUN apk del cmake git
+LABEL \
+  io.hass.version="VERSION" \
+  io.hass.type="addon" \
+  io.hass.arch="amd64"
 ENTRYPOINT ["/bin/bash"]
 CMD ["/xmrig/build/run.sh"]
 #ENTRYPOINT  ["./xmrig"]
