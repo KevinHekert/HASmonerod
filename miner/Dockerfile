@@ -12,9 +12,9 @@ RUN cd xmrig/build
 WORKDIR /xmrig/build
 COPY run.sh /xmrig/build/run.sh
 RUN chmod +x /xmrig/build/run.sh
-#RUN cmake ..
-#RUN make -j$(nproc)
-#RUN apk del cmake git
+RUN cmake ..
+RUN make -j$(nproc)
+RUN apk del cmake git
 LABEL \
   io.hass.version="VERSION" \
   io.hass.type="addon" \
