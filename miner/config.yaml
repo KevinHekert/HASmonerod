@@ -1,6 +1,6 @@
 name: "Home Assistant Monero Miner"
 description: "Home Assistant Monero Miner"
-version: "1.0.8"
+version: "1.0.9"
 slug: "homeassistant_monerominer"
 init: false
 arch:
@@ -10,7 +10,9 @@ options:
   maximum_amount_of_used_cores: 2
   wallet: "44v1W3BG3uYdiRc86DgWMxABv8YrgY4zn6tQ36npJjUDcY6FvegqPgbDftGQwXd6cYb3N9K51jLk1NEzutpkrBXq5DxgUrD"
   pool_server: "pool.supportxmr.com:5555"
+  worker_name: "KH-Hassio-Worker"
 schema:
   maximum_amount_of_used_cores: int(1,16)
   wallet: str
   pool_server: str
+  worker_name: str
