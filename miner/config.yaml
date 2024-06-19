@@ -1,6 +1,6 @@
 name: "Home Assistant Monero Miner"
 description: "Home Assistant Monero Miner"
-version: "1.0.3"
+version: "1.0.4"
 slug: "homeassistant_monerominer"
 init: false
 arch:
@@ -11,3 +11,4 @@ options:
   wallet: "Enter wallet info here"
 schema:
   maximum_amount_of_used_cores: int(1,16)
+  wallet: str

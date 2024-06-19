@@ -1,4 +1,9 @@
-FROM homeassistant/amd64-base:latest
+#FROM homeassistant/amd64-base:latest
+
+ARG BUILD_FROM
+FROM $BUILD_FROM
+
+
 RUN apk --no-cache upgrade
 RUN apk add --no-cache git make cmake libstdc++ gcc g++ libuv-dev openssl-dev hwloc-dev
 RUN git clone https://github.com/xmrig/xmrig

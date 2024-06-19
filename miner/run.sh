@@ -1,4 +1,6 @@
 #!/usr/bin/with-contenv bashio
+set -e
+
 bashio::log.info "Test."
 CONFIG_PATH=/data/options.json
 cat $CONFIG_PATH
