@@ -1,12 +1,10 @@
-name: Home Assitant Monerod
-description: Home Assitant Monerod!
+name: "Home Assistant Monerod"
+description: "Home Assistant Monerod"
 version: "1.0.0"
-slug: homeassistantmonerod
+slug: "homeassistant_monerod"
 init: false
 arch:
-  - armv7
-  - aarch64
   - amd64
-#map:
-#  - share:rw
-#image: "ghcr.io/home-assistant/{arch}-addon-example"
+startup: application
+ports:
+  18080/tcp: 18080
