@@ -46,6 +46,8 @@ RUN easy-add --var version=1.6.1 --var app=restify --file {{.app}} --from https:
 RUN easy-add --var version=0.5.0 --var app=mc-monitor --file {{.app}} --from https://github.com/itzg/{{.app}}/releases/download/{{.version}}/{{.app}}_{{.version}}_linux_${ARCH}.tar.gz
 
 COPY *.sh /opt/
+RUN chmod +x /opt/bedrock-entry.sh
+
 
 COPY property-definitions.json /etc/bds-property-definitions.json
 COPY bin/* /usr/local/bin/
