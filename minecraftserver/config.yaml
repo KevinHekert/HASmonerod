@@ -1,0 +1,10 @@
+name: "Minecraft Server 2"
+description: "Server addon 2"
+version: "1.0.2"
+slug: "minecraft_server_2"
+init: false
+arch:
+  - amd64
+startup: application
+ports:
+  19132/udp: 19132
