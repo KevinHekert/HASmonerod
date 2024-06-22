@@ -1,7 +1,7 @@
-name: "Minecraft Server 2"
-description: "Server addon 2"
-version: "1.0.3"
-slug: "minecraft_server_2"
+name: "Minecraft Server"
+description: "Hekert - Server addon - Bedrock"
+version: "1.0.0"
+slug: "minecraft_server"
 init: false
 arch:
   - amd64

@@ -57,7 +57,7 @@ COPY bin/* /usr/local/bin/
 # https://minecraft.gamepedia.com/Bedrock_Edition_1.12.0
 # https://minecraft.gamepedia.com/Bedrock_Edition_1.13.0
 # https://minecraft.gamepedia.com/Bedrock_Edition_1.14.0
-ENV SERVER_NAME=Hekert2 \
+ENV SERVER_NAME=Hekert \
     VERSION=LATEST \
     SERVER_PORT=19132 \
     GAMEMODE=survival \
@@ -66,7 +66,7 @@ ENV SERVER_NAME=Hekert2 \
     ONLINE_MODE=true \
     EULA=true \
     LEVEL_SEED=-1251937210 \
-    LEVEL_NAME=Hekert2
+    LEVEL_NAME=Hekert
 
     
 HEALTHCHECK --start-period=1m CMD /usr/local/bin/mc-monitor status-bedrock --host 127.0.0.1 --port $SERVER_PORT
